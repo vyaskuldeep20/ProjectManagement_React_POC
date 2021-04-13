@@ -1,0 +1,93 @@
+.addItem{
+    margin-bottom: 10px;
+    display: flex;
+    margin-top: 60px;
+    /* left : 2px;
+    position: relative; */
+    justify-content: space-between;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgray;
+  color: white;
+  text-align: center;
+  height:10vh
+}
+
+.header{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+    height:10vh;
+    display: flex;
+    color: black;
+    font-weight: bolder;
+    justify-content: space-between;
+  }
+
+
+  .body{
+      position: fixed;
+      height: 80vh;
+      top:10vh;
+  }
+
+  .listContainer{
+      overflow-y: auto;
+      /* height: 70vh; */
+      max-height: 68vh;
+  }
+
+  .searchbox{
+      height: 40px;
+      border-radius: 5px;
+      border-color: lightgray;
+      position: relative;
+      right: 15px;
+  }
+
+  .formGroup{
+      display: grid;
+      grid-template-columns: 1fr 5fr;
+      color: black;
+      margin: 40px;
+      text-align: left;
+  }
+
+  .formheading{
+      /* margin-top: 50px; */
+      font-family: Arial, Helvetica, sans-serif;
+      /* height: 70px; */
+  }
+
+  label{
+      font-weight: 500;
+  }
+
+  .cover{
+      border:1px solid grey;
+      border-radius: 10px;
+      padding:30px;
+      margin: 40px;
+  }
+
+  .spacinginBetween{
+      margin-left: 10px;
+  }
+
+  select{
+      color:green
+  }
+  
+
+  
+
+
+
