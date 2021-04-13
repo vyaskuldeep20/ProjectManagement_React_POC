@@ -1,0 +1,38 @@
+
+.login{
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 800px;
+    /* margin:auto; */
+    margin-top: 15vh;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding:60px 0px;
+    background: lightgray;
+    border-radius: 5px;
+
+    /* height: 100vh; */
+}
+
+label{
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+/* input{
+   height: 30px; 
+   width: 400px;
+   margin: 20px 10px;
+} */
+
+.submit{
+    padding: 20px 50px;
+    border-radius: 10px;
+    position: relative;
+    left: 35px;
+    margin-top: 10px;
+}

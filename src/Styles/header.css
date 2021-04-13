@@ -1,0 +1,32 @@
+/* .header{
+    display: flex;
+    height: 70px;
+    background: lightgray;
+    color: black;
+    font-weight: bolder;
+    justify-content: space-between;
+} */
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: lightgray;
+}

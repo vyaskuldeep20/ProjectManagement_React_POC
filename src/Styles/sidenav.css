@@ -1,0 +1,37 @@
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    height: 80vh;
+}
+
+.items{
+    border-bottom: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    color: black;
+    font-weight: 600;
+
+}
+
+.activeLink{
+    background: lightgray;
+    cursor: pointer;
+    
+}
+
+.sidenav a:hover{
+    background:darkgray;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+
+a:hover{
+    text-decoration: none !important;
+    cursor: pointer;
+}
